@@ -1,13 +1,80 @@
 body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  background-color: #333333;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+header {
+  width: 700px;
+  display: flex;
+  align-items:center;
+  justify-content: space-between;
+  margin: auto;
+}
+
+h1 {
+  color: aliceblue;
+}
+
+.menu {
+  width: 300px;
+ display: flex;
+ justify-content: space-around;
+ text-transform: uppercase;
+}
+
+.a {
+  color:aliceblue;
+  font-size: 16px;
+}
+
+main {
+  width: 400px;
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  margin-top: 6%;
+}
+.Coveri {
+  font-family: Georgia, serif;
+  font-size: 40px;
+}
+
+.homeP {
+  color:aliceblue;
+  width: 600px;
+  font-size: 19px;
+  margin: 0 0 50px 0;
+}
+
+.learn-button {
+ margin: auto;
+}
+
+button {
+  width: 150px;
+  height: 50px;
+  border-radius: 6px;
+}
+
+.footer-main {
+  margin-top: 190px;
+  width: 320px;
+  height: 100px;
+  font-size: 17px;
+  margin-left: 20px;
+}
+
+.Footer {
+  color: #585858;
+}
+
+span {
+  color: aliceblue;
+}
+
+.carta {
+  width: 200px;
+  height: 200px;
+  background-color:#333333
 }
